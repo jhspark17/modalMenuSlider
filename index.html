@@ -8,17 +8,10 @@
 </head>
 <body>
   <div class="bar">
+    <button></button>
     <h1>Oh My God</h1>
     <div class="header">Took me to the sky and showed me all the stars</div>
     <button class="btn" id="btn">Sign Up</button>
-  </div>
-  <!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
   </div>
 
 </div>
@@ -43,6 +36,33 @@
       </div>
     </div>
   </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p>Sign Up</p>
+        <button class="close" id="close-modal">&times;</button>
+      </div>  
+      <div class="form" id = "form">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="username" placeholder="John Doe"/>
+        </div >
+        <div class="form-control">
+          <label for="name">Email</label>
+          <input type="text" id="username" placeholder="Email"/>
+        </div >
+        <div class="form-control">
+          <label for="name">Password</label>
+          <input type="text" id="username" placeholder="Password"/>
+        </div >
+        <div class="form-control">
+          <label for="name">Confirm Password</label>
+          <input type="text" id="username" placeholder="Confirm Password"/>
+        </div >
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </div>
+  
   <script src="script.js"></script>
 </body>
 </html>
